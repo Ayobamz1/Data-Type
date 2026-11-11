@@ -75,7 +75,12 @@ let students = [
 
 console.log(students[0]);
 console.log(students[1]);
-console.log(studenst[2]);
+console.log(students[2]);
+
+// JS Arrays start counting from index 0, not 1
+
+// Function
+
 
 
 
