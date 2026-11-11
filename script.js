@@ -73,8 +73,8 @@ let students = [
     "Johnson",
 ];
 
-console.log(student[0]);
-console.log(student[1]);
+console.log(students[0]);
+console.log(students[1]);
 console.log(student[2]);
 
 
