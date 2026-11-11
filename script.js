@@ -58,6 +58,7 @@ console.log(student.school);
 console.log(student.course);
 
 // Arrays : Allows you to store multiple values inside one variable
+// Instead of writing 
 let student1 = "John";
 let student2 = "James";
 let student3 = "Juda";
@@ -79,7 +80,14 @@ console.log(students[2]);
 
 // JS Arrays start counting from index 0, not 1
 
-// Function
+// Function : A function is a reusable block of code designed to perform a particular task
+
+function greet() {
+    console.log("Welcome to Javascript!");
+}
+
+greet();
+
 
 
 
