@@ -27,10 +27,10 @@ let age = 16;
 
 console.log(`My name is ${name} and I am ${age} years old.`);
 
-let student = "Ayobami";
+let studentName = "Ayobami";
 let score =  '353';
 
-console.log(`Congratulations ${student}, your JAMB score is ${score}.`);
+console.log(`Congratulations ${studentName}, your JAMB score is ${score}.`);
 
 // BigInt 
 let bigNumber = 123456789n;
@@ -49,8 +49,33 @@ let student = {
     name: "Ayobami",
     age: 16,
     school: "SQI",
-    course: "Web Development",
-}
+    course: "Web Development"
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.school);
+console.log(student.course);
+
+// Arrays : Allows you to store multiple values inside one variable
+let student1 = "John";
+let student2 = "James";
+let student3 = "Juda";
+let student4 = "Joses";
+let student5 = "Johnson";
+
+// But Array will allow you to write it like this 
+let students = [
+    "John",
+    "James",
+    "Juda",
+    "Joses",
+    "Johnson",
+];
+
+console.log(student[0]);
+console.log(student[1]);
+console.log(student[2]);
 
 
 
